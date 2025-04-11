@@ -110,7 +110,7 @@ def create_panel(track, elapsed):
     device = Text(f"Device: {track['device']}", style="dim")
 
     return Panel(Group(meta, progress_row, device),
-                 title="Spotify V2",
+                 title="Spotify V3",
                  border_style=spotify_green,
                  style=background_style)
 
